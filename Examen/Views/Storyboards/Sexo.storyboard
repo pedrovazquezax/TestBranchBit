@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cs7-am-caa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gender View Controller-->
+        <scene sceneID="qiQ-xa-BDw">
+            <objects>
+                <viewController id="Cs7-am-caa" customClass="GenderViewController" customModule="Examen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Ah-R1-1GP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z5u-mH-lDz">
+                                <rect key="frame" x="0.0" y="144" width="414" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="3gU-tN-UZQ"/>
+                                </constraints>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULC-1C-k4e">
+                                <rect key="frame" x="20" y="394" width="374" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2mB-EK-vk5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YVQ-cN-PAX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z5u-mH-lDz" firstAttribute="top" secondItem="YVQ-cN-PAX" secondAttribute="top" constant="100" id="4YV-he-sVZ"/>
+                            <constraint firstItem="YVQ-cN-PAX" firstAttribute="trailing" secondItem="Z5u-mH-lDz" secondAttribute="trailing" id="5MS-I8-gPb"/>
+                            <constraint firstItem="Z5u-mH-lDz" firstAttribute="leading" secondItem="YVQ-cN-PAX" secondAttribute="leading" id="JMe-TN-Sy2"/>
+                            <constraint firstItem="ULC-1C-k4e" firstAttribute="top" secondItem="Z5u-mH-lDz" secondAttribute="bottom" id="UgA-8t-FR3"/>
+                            <constraint firstItem="YVQ-cN-PAX" firstAttribute="trailing" secondItem="ULC-1C-k4e" secondAttribute="trailing" constant="20" id="fku-sM-UVE"/>
+                            <constraint firstItem="ULC-1C-k4e" firstAttribute="leading" secondItem="YVQ-cN-PAX" secondAttribute="leading" constant="20" id="qwn-sh-PAU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="GenderTableView" destination="Z5u-mH-lDz" id="X7I-wn-LTr"/>
+                        <outlet property="selectedGender" destination="ULC-1C-k4e" id="b8P-kG-THq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fm1-yp-V8v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="106"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

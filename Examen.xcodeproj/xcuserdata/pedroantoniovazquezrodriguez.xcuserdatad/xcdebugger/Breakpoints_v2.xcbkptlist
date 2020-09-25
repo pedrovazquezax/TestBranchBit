@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F7F53C1-3089-485B-AF97-8F399067EC3A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56BA644E-036E-4A35-A9CD-1CC79A1FECA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Examen/Views/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "NextViewActionButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "56BA644E-036E-4A35-A9CD-1CC79A1FECA8 - 37141af5253e8159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Examen.MainViewController.NextViewActionButton(Any) -&gt; ()"
+                  moduleName = "Examen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedroantoniovazquezrodriguez/Desktop/Examen/Examen/Views/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "598">
+               </Location>
+               <Location
+                  uuid = "56BA644E-036E-4A35-A9CD-1CC79A1FECA8 - 1186cb600000e58d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Examen.MainViewModelItem) -&gt; Examen.MainModel in Examen.MainViewController.NextViewActionButton(Any) -&gt; ()"
+                  moduleName = "Examen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pedroantoniovazquezrodriguez/Desktop/Examen/Examen/Views/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

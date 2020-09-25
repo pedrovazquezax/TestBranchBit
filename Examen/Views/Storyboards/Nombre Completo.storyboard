@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ulQ-NP-jNJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Name View Controller-->
+        <scene sceneID="CsD-DR-R99">
+            <objects>
+                <viewController id="ulQ-NP-jNJ" customClass="NameViewController" customModule="Examen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZe-oQ-0XE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YqP-eW-OQR">
+                                <rect key="frame" x="20" y="431" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa Tu Nombre Completo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9j-7B-rTA">
+                                <rect key="frame" x="20" y="390" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dvz-7M-zqb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YqP-eW-OQR" firstAttribute="top" secondItem="J9j-7B-rTA" secondAttribute="bottom" constant="20" id="0Lz-GQ-jhC"/>
+                            <constraint firstItem="Dvz-7M-zqb" firstAttribute="trailing" secondItem="YqP-eW-OQR" secondAttribute="trailing" constant="20" id="8Bz-an-mKe"/>
+                            <constraint firstItem="YqP-eW-OQR" firstAttribute="centerX" secondItem="nZe-oQ-0XE" secondAttribute="centerX" id="UW1-vg-6a5"/>
+                            <constraint firstItem="Dvz-7M-zqb" firstAttribute="trailing" secondItem="J9j-7B-rTA" secondAttribute="trailing" constant="20" id="gYb-XH-Jax"/>
+                            <constraint firstItem="YqP-eW-OQR" firstAttribute="centerY" secondItem="nZe-oQ-0XE" secondAttribute="centerY" id="ghK-BL-Acz"/>
+                            <constraint firstItem="YqP-eW-OQR" firstAttribute="leading" secondItem="Dvz-7M-zqb" secondAttribute="leading" constant="20" id="usU-hQ-l5Q"/>
+                            <constraint firstItem="J9j-7B-rTA" firstAttribute="leading" secondItem="Dvz-7M-zqb" secondAttribute="leading" constant="20" id="vQZ-Li-GQu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="YqP-eW-OQR" id="xhc-hT-rlt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q3H-yE-TqH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="162"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
